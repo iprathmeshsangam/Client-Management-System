@@ -1,0 +1,54 @@
+<div class="ClientHead">
+    <h1 mat-dialog-title>Add Client</h1>
+    <span class="material-icons" mat-dialog-close>cancel</span>
+</div>
+
+
+<div mat-dialog-content>
+    <form [formGroup]="ClientForm">
+        
+        <!-- firstname -->
+        <mat-form-field appearance="outline" style="width: 50%;">
+            <mat-label>First Name</mat-label>
+            <input matInput placeholder="Client's first Name" formControlName="FirstName">
+            <mat-hint>Ex. XYZ company</mat-hint>
+        </mat-form-field>
+
+        <!-- lastname -->
+
+        <mat-form-field appearance="outline" style="width: 50%;">
+            <mat-label>Last Name</mat-label>
+            <input matInput placeholder="Client's Last Name" formControlName="LastName">
+            <mat-hint>Ex. XYZ company</mat-hint>
+        </mat-form-field>
+
+        <!-- email -->
+        <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input type="email" matInput placeholder="Email" formControlName="Email">
+            <mat-hint>Ex."John at xyz.com"</mat-hint>
+        </mat-form-field>
+
+        <!-- password -->
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input type="password" matInput placeholder="Password" formControlName="Password">
+            <mat-hint>Enter min 8 Character Password</mat-hint>
+        </mat-form-field>
+
+        <!-- address  -->
+
+        <mat-form-field appearance="outline">
+            <mat-label>Address</mat-label>
+            <input matInput placeholder="Address" formControlName="Address">
+            <mat-hint>Ex. suite. 201 , Mumbai -60</mat-hint>
+        </mat-form-field>
+
+    </form>
+    <!-- Register  /Clear Button  -->
+    <div mat-dialog-actions [align]="'end'">
+        <button mat-raised-button (click)="clear()">Clear</button>
+        <button mat-raised-button color="primary" (click)="AddClient()">{{actionBtn}}</button>
+    </div>
+
+</div>

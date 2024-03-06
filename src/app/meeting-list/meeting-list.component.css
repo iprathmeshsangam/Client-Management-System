@@ -1,0 +1,46 @@
+.ClientMeetingData{
+    width: 90%;
+    margin: auto;
+}
+
+button{
+    padding: 8px 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:first-child{
+    background-color: lightgrey;
+    color: black;
+}
+button:last-child{
+    background-color: tomato;
+    color: black;
+}
+h1{
+    margin: 10px;
+}
+
+.MeetingClient{
+    margin: 10px;
+}
+.MeetingClient h1{
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+#Date{
+    
+    background-color: rgb(222, 222, 222);
+    display: inline-block;
+    padding: 5px 14px;
+    /* margin-left: 15px; */
+    border-radius: 50px;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 10px;
+    /* color: white; */
+
+}

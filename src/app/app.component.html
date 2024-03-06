@@ -1,0 +1,32 @@
+  
+  <mat-toolbar>
+    <span>{{title}} - {{desc}}</span>
+  <span class="example-spacer"></span>
+  <button mat-flat-button color="primary" (click)="openClientAdd()">Add Client</button>
+  <button mat-stroked-button (click)="openMeetingAdd()">Add Meetings</button>
+  </mat-toolbar>
+
+
+  <mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened>
+        <!-- links to client -->
+        
+        <div class="sideBar">
+          <a routerLink="Home-Page">Home</a>
+          <a routerLink="Clients">Clients</a>
+          <a routerLink="Meetings">All Meetings</a>
+        </div>
+        <!---->
+    </mat-drawer>
+      <mat-drawer-content>
+        <!-- content of meeting and clients -->
+        <router-outlet></router-outlet>
+      </mat-drawer-content>
+  </mat-drawer-container>
+
+ <footer>
+  <app-footer></app-footer>
+ </footer>
+  <!-- <router-outlet></router-outlet> -->
+
+  

@@ -1,0 +1,72 @@
+/* body{
+    border: 1px solid red;
+} */
+.container{
+    margin: auto;
+    width: 90%;
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+.container h1{
+    /* margin-left: 15px; */
+    font-size: 2rem;
+    font-weight: 500;
+}
+.container h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+#Date{
+    background-color: rgb(222, 222, 222);
+    display: inline-block;
+    padding: 5px 14px;
+    /* margin-left: 15px; */
+    border-radius: 50px;
+    font-size: small;
+    font-weight: 500;
+    /* color: white; */
+}
+.span-title h1{
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: lightgray;
+}
+.ComponentData{
+    margin: 10px;
+    width: 250px;
+    height: 120px;
+    /* border: 0px rgb(225, 225, 225) solid; */
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    text-align: center;
+    cursor: pointer;
+}
+.ComponentData h2{
+    margin:10px;
+    color: rgb(93, 93, 93);
+    font-weight: 400;
+    font-size:20px;
+    
+}
+.components{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.Count h1{
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+#Client{
+    background-color : #3f51b5;
+}
+#Client h2{
+    color: white;
+}
+#Client h1{
+    color: white;
+}
+

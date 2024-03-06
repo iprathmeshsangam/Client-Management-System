@@ -1,0 +1,47 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  button{
+    margin: 10px;
+  }
+
+  .example-container {
+    width: auto;
+    height: 100vh;
+    margin: 10px;
+  }
+  mat-drawer{
+    width: 15%;
+  }
+  mat-drawer-content{
+    width: auto;
+  }
+  .sideBar{
+    display: flex;
+    flex-direction: column;
+  }
+  .sideBar a{
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  .sideBar a:hover{
+    background-color: #3f51b5;
+    color: white;
+    font-weight: 500;
+  }
+
+  #Date{
+    
+      background-color: rgb(222, 222, 222);
+      display: inline-block;
+      padding: 5px 14px;
+      /* margin-left: 15px; */
+      border-radius: 50px;
+      font-size: small;
+      font-weight: 500;
+      /* color: white; */
+  
+  }

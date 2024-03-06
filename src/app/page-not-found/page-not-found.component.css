@@ -1,0 +1,18 @@
+.container{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: #3f51b5;
+}
+.container h1{
+    font-size: 4rem;
+    font-weight: 600;
+}
+.container p{
+    font-size: 1rem;
+}

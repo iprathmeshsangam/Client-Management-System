@@ -1,0 +1,21 @@
+mat-form-field{
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    float: right;
+    margin: 10px;
+}
+span{
+    float: right;
+    margin:10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.ClientHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
